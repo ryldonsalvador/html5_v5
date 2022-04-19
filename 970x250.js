@@ -810,7 +810,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_17.alpha = 0;
 	this.instance_17._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(53).to({_off:false},0).to({scaleX:1,scaleY:1,x:263,y:133,alpha:1},8).to({x:261},47).to({_off:true},16).wait(5));
+	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(53).to({_off:false},0).to({scaleX:1,scaleY:1,x:263,y:133,alpha:1},8).to({x:261},47).wait(21));
 
 	// Layer_8 (mask)
 	var mask_10 = new cjs.Shape();
@@ -830,7 +830,7 @@ if (reversed == null) { reversed = false; }
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_10;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(61).to({_off:false},0).to({x:52.5},7,cjs.Ease.quintOut).to({x:48.5},40).to({_off:true},16).wait(5));
+	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(61).to({_off:false},0).to({x:52.5},7,cjs.Ease.quintOut).to({x:48.5},40).wait(21));
 
 	// band_2
 	this.instance_19 = new lib.Symbol16();
@@ -843,7 +843,7 @@ if (reversed == null) { reversed = false; }
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_10;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_19).wait(61).to({_off:false},0).to({x:135},7,cjs.Ease.quintOut).to({x:131},40).to({_off:true},16).wait(5));
+	this.timeline.addTween(cjs.Tween.get(this.instance_19).wait(61).to({_off:false},0).to({x:135},7,cjs.Ease.quintOut).to({x:131},40).wait(21));
 
 	// Layer_17 (mask)
 	var mask_11 = new cjs.Shape();
@@ -863,7 +863,7 @@ if (reversed == null) { reversed = false; }
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_11;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_20).wait(61).to({_off:false},0).to({x:472.5},7,cjs.Ease.quintOut).to({x:476.5},40).to({_off:true},16).wait(5));
+	this.timeline.addTween(cjs.Tween.get(this.instance_20).wait(61).to({_off:false},0).to({x:472.5},7,cjs.Ease.quintOut).to({x:476.5},40).wait(21));
 
 	// band_4
 	this.instance_21 = new lib.Symbol37();
@@ -876,7 +876,7 @@ if (reversed == null) { reversed = false; }
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_11;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_21).wait(61).to({_off:false},0).to({x:369.5},7,cjs.Ease.quintOut).to({x:373.5},40).to({_off:true},16).wait(5));
+	this.timeline.addTween(cjs.Tween.get(this.instance_21).wait(61).to({_off:false},0).to({x:369.5},7,cjs.Ease.quintOut).to({x:373.5},40).wait(21));
 
 	this._renderFirstFrame();
 
@@ -891,20 +891,20 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"arcade_fire_big.png?1650399555281", id:"arcade_fire_big"},
-		{src:"arcade_fire_small.png?1650399555281", id:"arcade_fire_small"},
-		{src:"arcade_fireandmore.png?1650399555281", id:"arcade_fireandmore"},
-		{src:"ball.png?1650399555281", id:"ball"},
-		{src:"block_logo.png?1650399555281", id:"block_logo"},
-		{src:"copy1.png?1650399555281", id:"copy1"},
-		{src:"cta_bg.png?1650399555281", id:"cta_bg"},
-		{src:"date.png?1650399555281", id:"date"},
-		{src:"image1.png?1650399555281", id:"image1"},
-		{src:"image2.png?1650399555281", id:"image2"},
-		{src:"image3.png?1650399555281", id:"image3"},
-		{src:"image4.png?1650399555281", id:"image4"},
-		{src:"image5.png?1650399555281", id:"image5"},
-		{src:"learnmore.png?1650399555281", id:"learnmore"}
+		{src:"arcade_fire_big.png?1650399892493", id:"arcade_fire_big"},
+		{src:"arcade_fire_small.png?1650399892493", id:"arcade_fire_small"},
+		{src:"arcade_fireandmore.png?1650399892493", id:"arcade_fireandmore"},
+		{src:"ball.png?1650399892493", id:"ball"},
+		{src:"block_logo.png?1650399892493", id:"block_logo"},
+		{src:"copy1.png?1650399892493", id:"copy1"},
+		{src:"cta_bg.png?1650399892493", id:"cta_bg"},
+		{src:"date.png?1650399892493", id:"date"},
+		{src:"image1.png?1650399892493", id:"image1"},
+		{src:"image2.png?1650399892493", id:"image2"},
+		{src:"image3.png?1650399892493", id:"image3"},
+		{src:"image4.png?1650399892493", id:"image4"},
+		{src:"image5.png?1650399892493", id:"image5"},
+		{src:"learnmore.png?1650399892493", id:"learnmore"}
 	],
 	preloads: []
 };
